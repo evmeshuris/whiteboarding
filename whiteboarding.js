@@ -20,12 +20,12 @@ function dedupe (array) {
 //array.filter(function(currentValue, index, arr), thisValue)
 //return array.indexOf(currentValue) === index;
 
-function dedupeFilter(array){
-  let newArray = array.filter(function(currentValue, index)
-  return array.indexOf(currentValue) === index;
-
+function dedupeFilter(array) {
+	let filteredArray = array.filter(function(element, index) {
+		return array.indexOf(element) === index;
+	});
+	return filteredArray;
 }
-return newArray;
 
 function dedupe = (array) => {
   new variable = slice an array;
